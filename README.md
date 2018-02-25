@@ -1,5 +1,9 @@
-MacOSXWatchService
+DEPRECATED
 ===
+This repository is now closed. The project has been renamed [CloseWatch](https://github.com/swoval/swoval/blob/master/plugin/README.md) and folded into https://github.com/swoval/swoval where any future updates will be made. The last version of sbt-mac-watch-service is 1.2.4. The new artifact is named sbt-close-watch and has the same configuration and usage instructions (as of version 1.2.4).
+
+MacOSXWatchService
+=
 This is an sbt plugin that replaces the native java PollingWatchService with the MacOSXWatchService, which uses the apple file system api to receive file events.
 
 Usage
